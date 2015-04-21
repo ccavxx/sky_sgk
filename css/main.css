@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font:14px Verdana, Arial, Geneva, sans-serif;
+	color:#404040;
+	background:#fff url(../images/body.jpg) repeat;
+}
+img {
+	border-style:none;
+}
+ul, li {
+	list-style:none;
+}
+.header {
+	height:80px;
+	background:url(../images/header-bg.png) repeat-x left top;
+}
+.placeholder {
+	width:100%;
+	height:0px;
+	overflow:hidden;
+}
+.nav {
+	width:100%;
+	height:36px;
+	background:url(../images/nav-bg.png) repeat-x;
+	-webkit-box-shadow: 0px 2px 3px rgba(142,142,142,0.5);
+	-moz-box-shadow: 0px 2px 3px rgba(142,142,142,0.5);
+	box-shadow: 0px 2px 3px rgba(142,142,142,0.5);
+}
+.logo {
+	width:980px;
+	height:40px;
+	padding:20px 0px;
+	margin:0 auto;
+	background:url(../images/header-bg.png) repeat-x;
+	font:28px "微软雅黑", Verdana, Arial, Geneva, sans-serif;
+	color:#fff;
+	line-height:40px;
+	text-shadow:1px 1px 0px #072265;
+}
+.logo span {
+	font:18px Verdana, Arial, Geneva, sans-serif;
+	color:#f1f9fa;
+}
+.ul-box {
+	width:980px;
+	height:36px;
+	background:url(../images/nav-bg.png) repeat-x;
+	margin:0 auto;
+}
+ul.links li {
+	float:left;
+}
+ul.links li a {
+	display:block;
+	padding:5px 25px;
+	float:left;
+	height:26px;
+	color:#fff;
+	font:14px "微软雅黑", Verdana, Arial, Geneva, sans-serif;
+	line-height:26px;
+	text-decoration:none;
+}
+ul.links li a.cur {
+	background:url(../images/nav-sel-bg.png) repeat-x;
+	color:#333;
+}
+.con {
+	width:980px;
+	margin:0 auto;
+	padding-top:20px;
+}
+.show {
+	float:left;
+	width:960px;
+	background:#fff;
+	padding:10px;
+	-webkit-box-shadow: 0px 0px 6px #b2b4b4;
+	-moz-box-shadow: 0px 0px 6px #b2b4b4;
+	box-shadow: 0px 0px 6px #b2b4b4;
+}
+.banner {
+	width:960px;
+	height:240px;
+}
+.article {
+	width:920px;
+	float:left;
+	padding:20px;
+}
+.article h2 {
+	font:24px "微软雅黑", Verdana, Arial, Geneva, sans-serif;
+	line-height:60px;
+}
+.article p {
+	padding-bottom:8px;
+	font:14px "微软雅黑", Verdana, Arial, Geneva, sans-serif;
+	line-height:28px;
+}
+.footer {
+	clear:left;
+	padding:20px 0;
+	width:980px;
+	margin:0 auto;
+	text-align:center;
+	font:14px "微软雅黑", Verdana, Arial, Geneva, sans-serif;
+	line-height:40px;
+}
